@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 body {
     background: #060606;
+    font-family: "Inter", sans-serif;
+}
+
+.card {
+    background: linear-gradient(to top, #141620, #0C0C0F);
+    border: 1px solid #bab9b931 !important;
+    border-radius: 18px;
+    padding: 26px;
 }

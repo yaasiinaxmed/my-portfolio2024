@@ -7,7 +7,6 @@ export default {
   theme: {
     extend: {
       colors: {
-        primaryColor: 'linear-gradient(to top, #141620, #0C0C0F)',
         secondColor: '#1576FE',
         bgColor: '#060606',
       },
