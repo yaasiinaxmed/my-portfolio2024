@@ -11,7 +11,7 @@ export default function OverView() {
   return (
     <div className="container mx-auto px-4 sm:px-8 py-8 sm:py-20 grid grid-cols-1 sm:grid-cols-4 grid-rows-6 gap-4">
       {/* X / Twitter - Section */}
-      <div className="col-span-4 sm:col-span-2 row-span-2 w-full h-[186px] card border border-gray-500 flex flex-col gap-3">
+      <a href="https://twitter.com/yaasiin__ahmed" className="col-span-4 sm:col-span-2 row-span-2 w-full h-[186px] card border border-gray-500 flex flex-col gap-3">
         {/* header */}
         <div className="relative flex justify-between">
           <img
@@ -28,15 +28,15 @@ export default function OverView() {
         <div className="flex flex-col gap-1">
           <h3 className="text-lg font-medium">Twitter</h3>
           <span className="text-sm font-normal text-gray-300">
-            @yaasiinahmed12
+            @yaasiin__ahmed
           </span>
           <p className="text-sm font-normal text-gray-200">
             I am Web Developer
           </p>
         </div>
-      </div>
+      </a>
       {/* Github - Section */}
-      <div className="col-span-4 sm:col-span-2 row-span-4 w-full card border border-gray-500 flex flex-col gap-3">
+      <a href="https://github.com/yaasiinaxmed" className="col-span-4 sm:col-span-2 row-span-4 w-full card border border-gray-500 flex flex-col gap-3">
         {/* header */}
         <div className="relative flex justify-between">
           <img
@@ -54,7 +54,7 @@ export default function OverView() {
           <div>
             <h3 className="text-lg font-medium">Github</h3>
             <span className="text-sm font-normal text-gray-300">
-              @yaasiinahmed12
+              @yaasiinaxmed
             </span>
           </div>
           <div className="flex flex-col gap-3">
@@ -68,9 +68,9 @@ export default function OverView() {
             </h3>
           </div>
         </div>
-      </div>
+      </a>
       {/* Linkedin - Section */}
-      <div className="col-span-4 sm:col-span-1 row-span-2 sm:row-span-2 w-full h-[180px] card border border-gray-500 flex flex-col gap-3">
+      <a href="https://linkedin.com/in/yaasiin-ahmed-92126725b" className="col-span-4 sm:col-span-1 row-span-2 sm:row-span-2 w-full h-[180px] card border border-gray-500 flex flex-col gap-3">
         {/* header */}
         <div className="relative flex justify-between">
           <img
@@ -83,12 +83,12 @@ export default function OverView() {
         <div className="flex flex-col gap-1">
           <h3 className="text-sm font-medium">Linkedin</h3>
           <span className="text-sm font-normal text-gray-300">
-            @yaasiinahmed12
+            linkedin.com
           </span>
         </div>
-      </div>
+      </a>
       {/* Instagram - Section */}
-      <div className="col-span-4 sm:col-span-1 row-span-2 sm:row-span-2 w-full h-[180px] card border border-gray-500 flex flex-col gap-3">
+      <a href="https://www.instagram.com/yaasiinahmed16/" className="col-span-4 sm:col-span-1 row-span-2 sm:row-span-2 w-full h-[180px] card border border-gray-500 flex flex-col gap-3">
         {/* header */}
         <div className="relative flex justify-between">
           <img
@@ -101,10 +101,10 @@ export default function OverView() {
         <div className="flex flex-col gap-1">
           <h3 className="text-sm font-medium">Instagram</h3>
           <span className="text-sm font-normal text-gray-300">
-            @yaasiinahmed12
+            @yaasiinahmed16
           </span>
         </div>
-      </div>
+      </a>
       {/* Quotes - Section */}
       <div className="col-span-4 sm:col-span-2 row-span-2 sm:row-span-2 w-full h-[186px] card border border-gray-500 flex flex-col gap-3">
         {/* header */}
@@ -121,7 +121,7 @@ export default function OverView() {
         </div>
       </div>
       {/* Amesa - Section */}
-      <div className="col-span-4 sm:col-span-2 row-span-2 sm:row-span-2 w-full h-[186px] card border border-gray-500 flex flex-col gap-3">
+      <a href="http://www.amesasolutions.com/" className="col-span-4 sm:col-span-2 row-span-2 sm:row-span-2 w-full h-[186px] card border border-gray-500 flex flex-col gap-3">
         {/* header */}
         <div className="relative flex justify-between">
           <img
@@ -137,7 +137,7 @@ export default function OverView() {
             amesasolutions.com
           </span>
         </div>
-      </div>
+      </a>
     </div>
   );
 }
