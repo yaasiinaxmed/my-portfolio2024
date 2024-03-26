@@ -11,13 +11,13 @@ function ProfileInfo() {
       {/* Info */}
       <div className="flex flex-col gap-3">
         <h2 className="text-[26px] sm:text-[44px] font-bold">Yasin <span className="text-secondColor">Ahmed</span></h2>
-        <span className="text-[16px] sm:text-[20px] whitespace-normal">Hi! I'm a <span className="text-secondColor">MERN</span> Stack Developer from Mogadishu, <span className="text-secondColor">Somalia</span>.</span>
+        <span className="text-[16px] sm:text-[20px] whitespace-normal">Hi! I'm a MERN Stack Developer from Mogadishu, Somalia.</span>
         <span className="text-[16px] sm:text-[20px] whitespace-normal">
-          I build websites and software. I'm working on my business, <span className="text-secondColor">Amesa </span>
-           Solutions, along with my friends. We create all sorts of software and
+          I build websites and software. I'm working on my business, Amesa 
+           Solutions, along with my friends.<br className="hidden sm:block"/> We create all sorts of software and
           websites.
         </span>
-        <span className="text-[16px] sm:text-[20px] whitespace-normal">Let's <span className="text-secondColor">build</span> something amazing together!</span>
+        <span className="text-[16px] sm:text-[20px] whitespace-normal">Let's build something amazing together!</span>
       </div>
     </div>
   );
