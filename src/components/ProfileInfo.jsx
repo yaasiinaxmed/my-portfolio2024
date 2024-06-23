@@ -3,7 +3,7 @@ import avatar from "../assets/Avatar.png";
 
 function ProfileInfo() {
   return (
-    <div className="w-full !px-6 sm:px-0 py-8 sm:!py-20 pl-0 sm:!pl-28 flex flex-col gap-5 justify-center">
+    <div className="w-full !px-6 sm:px-0 py-8 sm:!py-20 pl-0 sm:!pl-30 flex flex-col gap-5 justify-center">
       {/* Avatar */}
       <figure className="flex items-center justify-center w-[11rem] h-[11rem] p-1 rounded-full bg-primaryColor border-[1px] border-secondColor overflow-hidden">
         <img src={avatar} alt="Yasin Ahmed" className="w-[11rem] "/>
